@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\JLabarca\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\JLabarca\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_beats-tower.-303254639.00" t="ExcludeRecursive" />
+    <e p="E:\Git\JLabarca\beats-tower" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Minimalist" t="Include">
+          <e p="Editor" t="Include">
+            <e p="EditorGUILayoutExtended.cs" t="Include" />
+            <e p="MinimalistClipboard.cs" t="Include" />
+            <e p="MinimalistEditorHelper.cs" t="Include" />
+            <e p="MinimalistSkyEditor.cs" t="Include" />
+            <e p="MinimalistStandardEditor.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="BRP" t="Include">
+              <e p="Minimalist Standard (GlobalSpace).shader" t="Include" />
+              <e p="Minimalist Standard (LocalSpace).shader" t="Include" />
+              <e p="Minimalist.cginc" t="Include" />
+            </e>
+            <e p="Common" t="Include">
+              <e p="Minimalist Sky.shader" t="Include" />
+            </e>
+            <e p="URP" t="Include">
+              <e p="Minimalist Standard LocalSpace.shader" t="Include" />
+              <e p="Minimalist Standard SRP Batched LocalSpace.shader" t="Include" />
+              <e p="Minimalist Standard SRP Batched.shader" t="Include" />
+              <e p="Minimalist Standard.shader" t="Include" />
+              <e p="Minimalist.hlsl" t="Include" />
+              <e p="MinimalistDepthOnlyPass.hlsl" t="Include" />
+              <e p="MinimalistInput.hlsl" t="Include" />
+              <e p="MinimalistInputSrpBatched.hlsl" t="Include" />
+              <e p="MinimalistMetaPass.hlsl" t="Include" />
+              <e p="MinimalistShadowCasterPass.hlsl" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PlayFabEditorExtensions" t="Include">
+          <e p="Editor" t="Include">
+            <e p="PlayFabEditor.cs" t="Include" />
+            <e p="PlayFabEditorExtensions.asmdef" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Components" t="Include">
+                <e p="ProgressBar.cs" t="Include" />
+                <e p="SubMenuComponent.cs" t="Include" />
+                <e p="TitleDataEditor.cs" t="Include" />
+                <e p="TitleDataViewer.cs" t="Include" />
+                <e p="TitleInternalDataEditor.cs" t="Include" />
+                <e p="TitleInternalDataViewer.cs" t="Include" />
+              </e>
+              <e p="Panels" t="Include">
+                <e p="PlayFabEditorAuthenticate.cs" t="Include" />
+                <e p="PlayFabEditorDataMenu.cs" t="Include" />
+                <e p="PlayFabEditorHeader.cs" t="Include" />
+                <e p="PlayFabEditorHelpMenu.cs" t="Include" />
+                <e p="PlayFabEditorMenu.cs" t="Include" />
+                <e p="PlayFabEditorPackages.cs" t="Include" />
+                <e p="PlayFabEditorSDKTools.cs" t="Include" />
+                <e p="PlayFabEditorSettings.cs" t="Include" />
+                <e p="PlayFabEditorToolsMenu.cs" t="Include" />
+              </e>
+              <e p="PlayFabEditorSDK" t="Include">
+                <e p="ISerializer.cs" t="Include" />
+                <e p="PlayFabEditorApi.cs" t="Include" />
+                <e p="PlayFabEditorHttp.cs" t="Include" />
+                <e p="PlayFabEditorModels.cs" t="Include" />
+                <e p="SimpleJson.cs" t="Include" />
+              </e>
+              <e p="Utils" t="Include">
+                <e p="EditorCoroutine.cs" t="Include" />
+                <e p="PlayFabEditorDataService.cs" t="Include" />
+                <e p="PlayFabEditorHelper.cs" t="Include" />
+                <e p="PlayFabEditorPrefsSO.cs" t="Include" />
+                <e p="PlayFabEditorUtils.cs" t="Include" />
+                <e p="PlayFabEditorVersion.cs" t="Include" />
+                <e p="PlayFabGuiFieldHelper.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Core" t="Include">
+            <e p="MonoBehaviours" t="Include">
+              <e p="TileView.cs" t="Include" />
+            </e>
+            <e p="PlayerInput" t="Include">
+              <e p="DebugInputsSystem.cs" t="Include" />
+            </e>
+            <e p="Pooling" t="Include">
+              <e p="GenericObjectPool.cs" t="Include" />
+              <e p="TilesPool.cs" t="Include" />
+            </e>
+            <e p="Tempo" t="Include">
+              <e p="Components" t="Include">
+                <e p="TempoEvent.cs" t="Include" />
+                <e p="TempoHitEvent.cs" t="Include" />
+                <e p="Tile.cs" t="Include" />
+              </e>
+              <e p="Systems" t="Include">
+                <e p="TempoEmitSystem.cs" t="Include" />
+                <e p="TempoHitSystem.cs" t="Include" />
+                <e p="TempoTilesMoveSystem.cs" t="Include" />
+                <e p="TempoTileSpawnerSystem.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="External" t="Include">
+            <e p="Midi" t="Include">
+              <e p="Chunks" t="Include">
+                <e p="Chunk.cs" t="Include" />
+                <e p="HeaderChunk.cs" t="Include" />
+                <e p="TrackChunk.cs" t="Include" />
+              </e>
+              <e p="Events" t="Include">
+                <e p="ChannelEvents" t="Include">
+                  <e p="ChannelAftertouchEvent.cs" t="Include" />
+                  <e p="ChannelEvent.cs" t="Include" />
+                  <e p="ControllerEvent.cs" t="Include" />
+                  <e p="NoteAftertouchEvent.cs" t="Include" />
+                  <e p="NoteEvent.cs" t="Include" />
+                  <e p="NoteOffEvent.cs" t="Include" />
+                  <e p="NoteOnEvent.cs" t="Include" />
+                  <e p="PitchBendEvent.cs" t="Include" />
+                  <e p="ProgramChangeEvent.cs" t="Include" />
+                </e>
+                <e p="MetaEvents" t="Include">
+                  <e p="CopyrightNoticeEvent.cs" t="Include" />
+                  <e p="CuePointEvent.cs" t="Include" />
+                  <e p="EndOfTrackEvent.cs" t="Include" />
+                  <e p="InstrumentNameEvent.cs" t="Include" />
+                  <e p="KeySignatureEvent.cs" t="Include" />
+                  <e p="LyricsEvent.cs" t="Include" />
+                  <e p="MarkerEvent.cs" t="Include" />
+                  <e p="MetaEvent.cs" t="Include" />
+                  <e p="MIDIChannelPrefixEvent.cs" t="Include" />
+                  <e p="SequenceNumberEvent.cs" t="Include" />
+                  <e p="SequenceOrTrackNameEvent.cs" t="Include" />
+                  <e p="SequencerSpecificEvent.cs" t="Include" />
+                  <e p="SetTempoEvent.cs" t="Include" />
+                  <e p="SMPTEOffsetEvent.cs" t="Include" />
+                  <e p="TextEvent.cs" t="Include" />
+                  <e p="TimeSignatureEvent.cs" t="Include" />
+                </e>
+                <e p="MidiEvent.cs" t="Include" />
+                <e p="SysexEvent.cs" t="Include" />
+              </e>
+              <e p="FileParser.cs" t="Include" />
+              <e p="Midi.asmdef" t="Include" />
+              <e p="MidiData.cs" t="Include" />
+              <e p="SoundEvent.cs" t="Include" />
+              <e p="Util" t="Include">
+                <e p="Option" t="Include">
+                  <e p="None.cs" t="Include" />
+                  <e p="Option.cs" t="Include" />
+                  <e p="Some.cs" t="Include" />
+                </e>
+                <e p="VariableLengthUtil.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="GameStartup.cs" t="Include" />
+          <e p="GameState.cs" t="Include" />
+          <e p="IGameState.cs" t="Include" />
+          <e p="ScriptableObjects" t="Include">
+            <e p="Configuration.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="BillboardSpriteShader.shader" t="Include" />
+        </e>
+      </e>
+      <e p="beats-tower.sln" t="IncludeFlat" />
+      <e p="Midi.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PlayFabEditorExtensions.csproj" t="IncludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
