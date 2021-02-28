@@ -1,7 +1,7 @@
 ﻿using Jlabarca.BeatsTower.Core.Pooling;
+using Jlabarca.BeatsTower.Core.Tempo.Components;
+using Jlabarca.BeatsTower.Core.Tempo.Systems;
 using Jlabarca.BeatsTower.ScriptableObjects;
-using Jlabarca.BeatsTower.Tempo.Components;
-using Jlabarca.BeatsTower.Tempo.Systems;
 using Leopotam.Ecs;
 using UnityEngine;
 

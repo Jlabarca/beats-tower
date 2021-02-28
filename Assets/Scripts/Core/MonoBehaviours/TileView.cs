@@ -1,7 +1,7 @@
 ﻿using Leopotam.Ecs;
 using UnityEngine;
 
-namespace Jlabarca.BeatsTower.MonoBehaviours
+namespace Jlabarca.BeatsTower.Core.MonoBehaviours
 {
 	public class TileView : MonoBehaviour
     {

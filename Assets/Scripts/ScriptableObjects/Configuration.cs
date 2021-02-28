@@ -1,4 +1,4 @@
-﻿using Jlabarca.BeatsTower.MonoBehaviours;
+﻿using Jlabarca.BeatsTower.Core.MonoBehaviours;
 using UnityEngine;
 
 namespace Jlabarca.BeatsTower.ScriptableObjects

@@ -1,9 +1,9 @@
 ﻿using System;
-using Jlabarca.BeatsTower.Tempo.Components;
+using Jlabarca.BeatsTower.Core.Tempo.Components;
 using Leopotam.Ecs;
 using UnityEngine;
 
-namespace Jlabarca.BeatsTower.Tempo.Systems
+namespace Jlabarca.BeatsTower.Core.Tempo.Systems
 {
     public class TempoHitSystem :IEcsRunSystem
     {

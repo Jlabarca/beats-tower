@@ -1,4 +1,4 @@
-﻿using Jlabarca.BeatsTower.MonoBehaviours;
+﻿using Jlabarca.BeatsTower.Core.MonoBehaviours;
 using Leopotam.Ecs;
 
 namespace Jlabarca.BeatsTower.Core.Pooling

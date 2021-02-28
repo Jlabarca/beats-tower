@@ -1,7 +1,7 @@
-﻿using Jlabarca.BeatsTower.MonoBehaviours;
+﻿using Jlabarca.BeatsTower.Core.MonoBehaviours;
 using UnityEngine;
 
-namespace Jlabarca.BeatsTower.Tempo.Components
+namespace Jlabarca.BeatsTower.Core.Tempo.Components
 {
     internal struct Tile
     {

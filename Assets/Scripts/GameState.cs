@@ -9,7 +9,7 @@ namespace Jlabarca.BeatsTower
         public event Action<int> OnCountChange;
 
         public float time;
-        public float timeOffset = 1.66f;
+        public float timeOffset = 1f;
         public int[,] towerHeightWarm = new int[3,3];
         public int[,] towerHeight = new int[3,3];
 

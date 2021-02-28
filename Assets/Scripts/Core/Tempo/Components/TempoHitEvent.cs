@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Jlabarca.BeatsTower.Tempo.Components
+namespace Jlabarca.BeatsTower.Core.Tempo.Components
 {
     internal struct TempoHitEvent
     {
