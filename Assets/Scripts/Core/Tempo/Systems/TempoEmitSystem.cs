@@ -1,22 +1,21 @@
-﻿using System.IO;
-using Jlabarca.BeatsTower.Tempo.Components;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Jlabarca.BeatsTower.Core.Tempo.Components;
+using Jlabarca.BeatsTower.Core.Tempo.Tools;
 using Leopotam.Ecs;
-using Midi;
 using UnityEngine;
 
-#pragma warning disable 649
-
-namespace Jlabarca.BeatsTower.Tempo.Systems
+namespace Jlabarca.BeatsTower.Core.Tempo.Systems
 {
     public class TempoEmitSystem : IEcsRunSystem, IEcsInitSystem
     {
-        private const string MidiFilePath = "Assets/Tempo/Midi/grass4.mid";
+        private const string MidiFilePath = "Assets/Tempo/Midi/wat.mid";
 
-        private readonly EcsWorld _world;
-        private readonly AudioSource _audioSource;
-        private readonly GameState _gameState;
+        private readonly EcsWorld _world = default;
+        private readonly AudioSource _audioSource = default;
+        private readonly GameState _gameState = default;
 
-        private MidiData _midiData;
+        private List<MidiEvent> _midiData;
         private float _startTime;
         private int _midiEventIndex;
 
@@ -26,7 +25,6 @@ namespace Jlabarca.BeatsTower.Tempo.Systems
             _audioSource.Play();
             _audioSource.time = Time.time;
             _startTime = Time.time;
-            Debug.Log(_startTime);
         }
 
         public void Run()
@@ -34,26 +32,33 @@ namespace Jlabarca.BeatsTower.Tempo.Systems
             var time = _audioSource.time;
             _gameState.time = time;
             var preFireTime = time + _gameState.timeOffset;
-            if (_midiEventIndex >= _midiData.soundEvents.Count) return;
-            if (_midiData.soundEvents[_midiEventIndex].time >= preFireTime) return;
-            var actorEntity = _world.NewEntity();
 
-            actorEntity.Replace(new TempoEvent
+            while (_midiEventIndex < _midiData.Count && _midiData[_midiEventIndex].TimeInSeconds < preFireTime)
             {
-                SoundEvent = _midiData.soundEvents[_midiEventIndex],
-                ReleaseTime = _gameState.time
-            });
+                Debug.Log($"{_midiData[_midiEventIndex]}");
+                var actorEntity = _world.NewEntity();
 
-            _midiEventIndex++;
+                actorEntity.Replace(new TempoEvent
+                {
+                    MidiEvent = _midiData[_midiEventIndex],
+                    ReleaseTime = _gameState.time,
+                });
+
+                _midiEventIndex++;
+            }
         }
 
-        private static MidiData GetMidiFile(string fileName)
+        private static List<MidiEvent> GetMidiFile(string fileName)
         {
             var path = $"{MidiFilePath}/{fileName}";
-            var reader = File.OpenRead (MidiFilePath);
-            var midiFile = FileParser.parse(reader);
-            reader.Close();
-            return midiFile;
+            var midiFile = new MidiFile(MidiFilePath);
+            Debug.Log(midiFile.Format);
+            Debug.Log(midiFile.PulsesPerQuarter);
+            Debug.Log(midiFile.BeatsPerMinute);
+            foreach (var midiEvent in midiFile.Tracks[0].MidiEvents)
+                Debug.Log(midiEvent);
+
+            return midiFile.Tracks[1].MidiEvents.Where(e => e.MidiEventType == MidiEventType.NoteOn).ToList();
         }
     }
 }

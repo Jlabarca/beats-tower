@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using Jlabarca.BeatsTower.Core.MonoBehaviours;
 using Jlabarca.BeatsTower.Core.Pooling;
-using Jlabarca.BeatsTower.MonoBehaviours;
-using Jlabarca.BeatsTower.Tempo.Components;
+using Jlabarca.BeatsTower.Core.Tempo.Components;
 using Leopotam.Ecs;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Jlabarca.BeatsTower.Tempo.Systems
+namespace Jlabarca.BeatsTower.Core.Tempo.Systems
 {
     public class TempoTileSpawnerSystem : IEcsRunSystem
     {
@@ -28,6 +27,7 @@ namespace Jlabarca.BeatsTower.Tempo.Systems
         {
             foreach (var index in _filter)
             {
+                Debug.Log(_filter.GetEntitiesCount());
                 ref var tempoEvent = ref _filter.Get1(index);
                 //Debug.Log($"{Time.time} - {tempoEvent.soundEvent}");
                 var (x, y) = LowerHeightValue();
@@ -51,7 +51,7 @@ namespace Jlabarca.BeatsTower.Tempo.Systems
                         SpawnPosition = spawnPosition,
                         TargetPosition = targetPosition,
                         ReleaseTime = tempoEvent.ReleaseTime,
-                        FinalTime = tempoEvent.SoundEvent.time,
+                        FinalTime = tempoEvent.MidiEvent.TimeInSeconds,
                         TileView = tileView.GetComponent<TileView>(),
                     });
 
