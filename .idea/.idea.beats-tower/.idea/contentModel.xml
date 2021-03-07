@@ -105,59 +105,8 @@
                 <e p="TempoTilesMoveSystem.cs" t="Include" />
                 <e p="TempoTileSpawnerSystem.cs" t="Include" />
               </e>
-            </e>
-          </e>
-          <e p="External" t="Include">
-            <e p="Midi" t="Include">
-              <e p="Chunks" t="Include">
-                <e p="Chunk.cs" t="Include" />
-                <e p="HeaderChunk.cs" t="Include" />
-                <e p="TrackChunk.cs" t="Include" />
-              </e>
-              <e p="Events" t="Include">
-                <e p="ChannelEvents" t="Include">
-                  <e p="ChannelAftertouchEvent.cs" t="Include" />
-                  <e p="ChannelEvent.cs" t="Include" />
-                  <e p="ControllerEvent.cs" t="Include" />
-                  <e p="NoteAftertouchEvent.cs" t="Include" />
-                  <e p="NoteEvent.cs" t="Include" />
-                  <e p="NoteOffEvent.cs" t="Include" />
-                  <e p="NoteOnEvent.cs" t="Include" />
-                  <e p="PitchBendEvent.cs" t="Include" />
-                  <e p="ProgramChangeEvent.cs" t="Include" />
-                </e>
-                <e p="MetaEvents" t="Include">
-                  <e p="CopyrightNoticeEvent.cs" t="Include" />
-                  <e p="CuePointEvent.cs" t="Include" />
-                  <e p="EndOfTrackEvent.cs" t="Include" />
-                  <e p="InstrumentNameEvent.cs" t="Include" />
-                  <e p="KeySignatureEvent.cs" t="Include" />
-                  <e p="LyricsEvent.cs" t="Include" />
-                  <e p="MarkerEvent.cs" t="Include" />
-                  <e p="MetaEvent.cs" t="Include" />
-                  <e p="MIDIChannelPrefixEvent.cs" t="Include" />
-                  <e p="SequenceNumberEvent.cs" t="Include" />
-                  <e p="SequenceOrTrackNameEvent.cs" t="Include" />
-                  <e p="SequencerSpecificEvent.cs" t="Include" />
-                  <e p="SetTempoEvent.cs" t="Include" />
-                  <e p="SMPTEOffsetEvent.cs" t="Include" />
-                  <e p="TextEvent.cs" t="Include" />
-                  <e p="TimeSignatureEvent.cs" t="Include" />
-                </e>
-                <e p="MidiEvent.cs" t="Include" />
-                <e p="SysexEvent.cs" t="Include" />
-              </e>
-              <e p="FileParser.cs" t="Include" />
-              <e p="Midi.asmdef" t="Include" />
-              <e p="MidiData.cs" t="Include" />
-              <e p="SoundEvent.cs" t="Include" />
-              <e p="Util" t="Include">
-                <e p="Option" t="Include">
-                  <e p="None.cs" t="Include" />
-                  <e p="Option.cs" t="Include" />
-                  <e p="Some.cs" t="Include" />
-                </e>
-                <e p="VariableLengthUtil.cs" t="Include" />
+              <e p="Tools" t="Include">
+                <e p="MidiParser.cs" t="Include" />
               </e>
             </e>
           </e>
@@ -173,7 +122,6 @@
         </e>
       </e>
       <e p="beats-tower.sln" t="IncludeFlat" />
-      <e p="Midi.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="PlayFabEditorExtensions.csproj" t="IncludeRecursive" />

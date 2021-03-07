@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1ab9311-c668-4c22-8b20-345451282294" name="Default Changelist" comment="" />
+    <list default="true" id="b1ab9311-c668-4c22-8b20-345451282294" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.beats-tower/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.beats-tower/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.beats-tower/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.beats-tower/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.beats-tower/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.beats-tower/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +15,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EAE584CE-26BC-4022-9C1B-1AA476BFA589/94/db472990/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/351E49E2-A5BF-4FD6-BEAB-B458CE2255F3/d4/e055e298/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EAE584CE-26BC-4022-9C1B-1AA476BFA589/62/cf00a972/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Tempo/Systems/TempoTilesMoveSystem.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tempo/Systems/TempoTileSpawnerSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tempo/Systems/TempoEmitSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerInput/ClickMoveSystem.cs" />
@@ -22,6 +31,15 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/Pooling/TilesPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerInput/DebugInputsSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Configuration.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/External/Midi/FileParser.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Tempo/Components/TempoEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Tempo/Systems/TempoTileSpawnerSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/External/Midi/MidiData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Tempo/Systems/TempoHitSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/External/MidiParser.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Tempo/Tools/MidiParser.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Tempo/Systems/TempoEmitSystem.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1onm5nQD9A8tQzEyrN9Gyj1pXNC" />
@@ -37,6 +55,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.45297804" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -48,10 +67,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9640">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="9640" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -69,6 +88,7 @@
       <workItem from="1613930563830" duration="8903000" />
       <workItem from="1614308288117" duration="1664000" />
       <workItem from="1614446083511" duration="269000" />
+      <workItem from="1614474253413" duration="19260000" />
     </task>
     <servers />
   </component>
@@ -84,6 +104,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
